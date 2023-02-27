@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <parameter name="search" value="acid hialuronic"/>
+  <parameter name="pass" value="Cacatelul99"/>
+  <parameter name="user" value="marcuralucadaniela@yahoo.com"/>
+  <test thread-count="5" name="FilterTest(failed)">
+    <classes>
+      <class name="ro.farmec.tests.FiltersTest">
+        <methods>
+          <include name="checkFilters"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ro.farmec.tests.FiltersTest -->
+    </classes>
+  </test> <!-- FilterTest(failed) -->
+  <test thread-count="5" name="AddToWishTest(failed)">
+    <classes>
+      <class name="ro.farmec.tests.AddToWishTest">
+        <methods>
+          <include name="checkProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ro.farmec.tests.AddToWishTest -->
+    </classes>
+  </test> <!-- AddToWishTest(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

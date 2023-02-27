@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T20:24:07 EET" name="AllTests" finished-at="2023-02-27T20:24:38 EET" duration-ms="30828">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T20:24:07 EET" name="Login" finished-at="2023-02-27T20:24:12 EET" duration-ms="4773">
+      <class name="ro.farmec.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:07 EET" name="setUp" finished-at="2023-02-27T20:24:07 EET" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveLogin(java.lang.String,java.lang.String)[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:07 EET" name="positiveLogin" finished-at="2023-02-27T20:24:12 EET" duration-ms="4488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[marcuralucadaniela@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cacatelul99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:12 EET" name="tearDown" finished-at="2023-02-27T20:24:12 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.LoginTests -->
+    </test> <!-- Login -->
+    <test started-at="2023-02-27T20:24:12 EET" name="SearchProductTest" finished-at="2023-02-27T20:24:16 EET" duration-ms="4098">
+      <class name="ro.farmec.tests.SearchProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:12 EET" name="setUp" finished-at="2023-02-27T20:24:12 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:12 EET" name="searchProduct" finished-at="2023-02-27T20:24:16 EET" duration-ms="3889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[acid hialuronic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:16 EET" name="tearDown" finished-at="2023-02-27T20:24:16 EET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.SearchProductTest -->
+    </test> <!-- SearchProductTest -->
+    <test started-at="2023-02-27T20:24:16 EET" name="FilterTest" finished-at="2023-02-27T20:24:23 EET" duration-ms="7341">
+      <class name="ro.farmec.tests.FiltersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:16 EET" name="setUp" finished-at="2023-02-27T20:24:16 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkFilters()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:16 EET" name="checkFilters" finished-at="2023-02-27T20:24:23 EET" duration-ms="7001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:23 EET" name="tearDown" finished-at="2023-02-27T20:24:23 EET" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.FiltersTest -->
+    </test> <!-- FilterTest -->
+    <test started-at="2023-02-27T20:24:23 EET" name="SeeProductTest" finished-at="2023-02-27T20:24:31 EET" duration-ms="7185">
+      <class name="ro.farmec.tests.SeeProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:23 EET" name="setUp" finished-at="2023-02-27T20:24:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkSee()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:23 EET" name="checkSee" finished-at="2023-02-27T20:24:30 EET" duration-ms="6892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:30 EET" name="tearDown" finished-at="2023-02-27T20:24:31 EET" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.SeeProductTest -->
+    </test> <!-- SeeProductTest -->
+    <test started-at="2023-02-27T20:24:31 EET" name="AddToWishTest" finished-at="2023-02-27T20:24:38 EET" duration-ms="7325">
+      <class name="ro.farmec.tests.AddToWishTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:31 EET" name="setUp" finished-at="2023-02-27T20:24:31 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkProduct()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:31 EET" name="checkProduct" finished-at="2023-02-27T20:24:38 EET" duration-ms="7069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:38 EET" name="tearDown" finished-at="2023-02-27T20:24:38 EET" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.AddToWishTest -->
+    </test> <!-- AddToWishTest -->
+  </suite> <!-- AllTests -->
+</testng-results>
