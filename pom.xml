@@ -23,6 +23,11 @@
             <artifactId>selenium-java</artifactId>
             <version>4.8.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>URI.js</artifactId>
+            <version>1.14.1</version>
+        </dependency>
 
     </dependencies>
 

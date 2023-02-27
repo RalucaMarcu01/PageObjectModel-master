@@ -1,15 +1,15 @@
-package com.herokuapp.pages;
+package ro.farmec.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
-    public final static String LOGIN_URL = BASE_URL+"login";
-    @FindBy (id="username") private WebElement usernameInput;
+    public final static String LOGIN_URL = BASE_URL+"account/login";
+    @FindBy (id="email") private WebElement usernameInput;
     @FindBy (id="password") private WebElement passwordInput;
-    @FindBy (css="i.fa-sign-in") private WebElement loginButton;
-    @FindBy (id="flash") private WebElement alertLogout;
+    @FindBy (css="#root > main > div > div.LoginPage-Form > form > div.LoginPage-Submit > button") private WebElement loginButton;
+
 
     public LoginPage(WebDriver driver) {super(driver);}
 
@@ -25,12 +25,9 @@ public class LoginPage extends BasePage {
         loginButton.click();
     }
 
-    public boolean checkIfLogoutAlertIsDisplayed(){
-        return alertLogout.isDisplayed();
-    }
 
-    public String getAlertMessageText(){
-        return alertLogout.getText();
-    }
+
+
+
 
 }

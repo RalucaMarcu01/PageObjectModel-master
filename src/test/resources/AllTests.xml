@@ -1,27 +1,39 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="AllTests" verbose="1">
-    <parameter name="user" value="tomsmith"/>
-    <parameter name="pass" value="SuperSecretPassword!"/>
-    <parameter name="successLogoutMessage" value="You logged out of the secure area!"/>
-    <parameter name="mesajLogin" value="You logged into a secure area!"/>
-
+    <parameter name="user" value="marcuralucadaniela@yahoo.com"/>
+    <parameter name="pass" value="Cacatelul99"/>
+    <parameter name="search" value="acid hialuronic"/>
     <test name="Login">
         <classes>
-            <class name="com.herokuapp.tests.LoginTests"/>
+            <class name="ro.farmec.tests.LoginTests"/>
         </classes>
     </test>
 
-    <test name="Logout">
+    <test name="SearchProductTest">
         <classes>
-            <class name="com.herokuapp.tests.LogoutTests"/>
+            <class name="ro.farmec.tests.SearchProductTest"/>
         </classes>
     </test>
 
-    <test name="Checkbox">
+    <test name="FilterTest">
         <classes>
-            <class name="com.herokuapp.tests.CheckboxTests"/>
+            <class name="ro.farmec.tests.FiltersTest"/>
         </classes>
     </test>
+
+    <test name="SeeProductTest">
+        <classes>
+            <class name="ro.farmec.tests.SeeProductTest"/>
+        </classes>
+    </test>
+
+    <test name="AddToWishTest">
+        <classes>
+            <class name="ro.farmec.tests.AddToWishTest"/>
+        </classes>
+    </test>
+
+
 
 </suite>
