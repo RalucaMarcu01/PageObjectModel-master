@@ -14,8 +14,7 @@ public class AddToWishTest extends BaseTest {
     @Test
     public void checkProduct(){
 
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
+
         driver.get(SEE_URL);
         AddToWishPage addWish = new AddToWishPage(driver);
 
@@ -23,11 +22,7 @@ public class AddToWishTest extends BaseTest {
 
         addWish.wishProduct();
 
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e){
-            throw new RuntimeException(e);
-        }
+        waitFor(5000);
 
         addWish.heartButton();
         Assert.assertTrue(addWish.checkAlert());

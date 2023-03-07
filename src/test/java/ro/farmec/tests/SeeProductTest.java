@@ -16,26 +16,11 @@ public class SeeProductTest extends BaseTest {
 
     @Test
     public void checkSee(){
-        //
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
+
         driver.get(SEE_URL);
         SeeProductPage seeProductPage= new SeeProductPage(driver);
-
-        //WebDriverWait wait= new WebDriverWait(driver,10);
-        //wait.until(ExpectedConditions.elementToBeClickable(seeProductPage.));
-
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e){
-            throw new RuntimeException(e);
-        }
-
+        waitFor(5000);
         seeProductPage.openProduct();
-
-
-
-
 
         Assert.assertEquals(driver.getCurrentUrl(),"https://www.farmec.ro/crema-antirid-cu-acid-hialuronic-3-684");
     }

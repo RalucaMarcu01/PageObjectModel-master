@@ -15,8 +15,7 @@ public class SearchProductTest extends BaseTest {
 
     @Test
     public void searchProduct(String productName ){
-        driver=new ChromeDriver();
-        driver.manage().window().maximize();
+
         driver.get(SearchProductPage.SEARCH_URL);
         SearchProductPage searchPage = new SearchProductPage(driver);
         searchPage.enterProduct(productName);

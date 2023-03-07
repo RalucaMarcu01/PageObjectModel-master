@@ -10,6 +10,8 @@ public class LoginPage extends BasePage {
     @FindBy (id="password") private WebElement passwordInput;
     @FindBy (css="#root > main > div > div.LoginPage-Form > form > div.LoginPage-Submit > button") private WebElement loginButton;
 
+    @FindBy (xpath = "//*[@id=\"root\"]/main/section/div/div[1]/article/div/ul/li[8]/button") private WebElement logoutButton;
+
 
     public LoginPage(WebDriver driver) {super(driver);}
 
@@ -24,6 +26,7 @@ public class LoginPage extends BasePage {
         passwordInput.sendKeys(password);
         loginButton.click();
     }
+
 
 
 

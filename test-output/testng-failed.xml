@@ -4,17 +4,6 @@
   <parameter name="search" value="acid hialuronic"/>
   <parameter name="pass" value="Cacatelul99"/>
   <parameter name="user" value="marcuralucadaniela@yahoo.com"/>
-  <test thread-count="5" name="FilterTest(failed)">
-    <classes>
-      <class name="ro.farmec.tests.FiltersTest">
-        <methods>
-          <include name="checkFilters"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- ro.farmec.tests.FiltersTest -->
-    </classes>
-  </test> <!-- FilterTest(failed) -->
   <test thread-count="5" name="AddToWishTest(failed)">
     <classes>
       <class name="ro.farmec.tests.AddToWishTest">

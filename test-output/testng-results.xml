@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-27T20:24:07 EET" name="AllTests" finished-at="2023-02-27T20:24:38 EET" duration-ms="30828">
+  <suite started-at="2023-02-27T21:25:35 EET" name="AllTests" finished-at="2023-02-27T21:26:08 EET" duration-ms="33568">
     <groups>
     </groups>
-    <test started-at="2023-02-27T20:24:07 EET" name="Login" finished-at="2023-02-27T20:24:12 EET" duration-ms="4773">
+    <test started-at="2023-02-27T21:25:35 EET" name="Login" finished-at="2023-02-27T21:25:40 EET" duration-ms="5157">
       <class name="ro.farmec.tests.LoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:07 EET" name="setUp" finished-at="2023-02-27T20:24:07 EET" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.LoginTests@71c8becc]" started-at="2023-02-27T21:25:35 EET" name="setUp" finished-at="2023-02-27T21:25:35 EET" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="positiveLogin(java.lang.String,java.lang.String)[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:07 EET" name="positiveLogin" finished-at="2023-02-27T20:24:12 EET" duration-ms="4488" status="PASS">
+        <test-method signature="positiveLogin(java.lang.String,java.lang.String)[pri:0, instance:ro.farmec.tests.LoginTests@71c8becc]" started-at="2023-02-27T21:25:35 EET" name="positiveLogin" finished-at="2023-02-27T21:25:40 EET" duration-ms="4867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.LoginTests@1a0dcaa]" started-at="2023-02-27T20:24:12 EET" name="tearDown" finished-at="2023-02-27T20:24:12 EET" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.LoginTests@71c8becc]" started-at="2023-02-27T21:25:40 EET" name="tearDown" finished-at="2023-02-27T21:25:40 EET" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ro.farmec.tests.LoginTests -->
     </test> <!-- Login -->
-    <test started-at="2023-02-27T20:24:12 EET" name="SearchProductTest" finished-at="2023-02-27T20:24:16 EET" duration-ms="4098">
-      <class name="ro.farmec.tests.SearchProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:12 EET" name="setUp" finished-at="2023-02-27T20:24:12 EET" duration-ms="1" status="PASS">
+    <test started-at="2023-02-27T21:25:40 EET" name="Logout" finished-at="2023-02-27T21:25:47 EET" duration-ms="6518">
+      <class name="ro.farmec.tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.LogoutTest@45b9a632]" started-at="2023-02-27T21:25:40 EET" name="setUp" finished-at="2023-02-27T21:25:40 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:12 EET" name="searchProduct" finished-at="2023-02-27T20:24:16 EET" duration-ms="3889" status="PASS">
+        <test-method signature="positiveLogout(java.lang.String,java.lang.String)[pri:0, instance:ro.farmec.tests.LogoutTest@45b9a632]" started-at="2023-02-27T21:25:40 EET" name="positiveLogout" finished-at="2023-02-27T21:25:46 EET" duration-ms="6266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[marcuralucadaniela@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cacatelul99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.LogoutTest@45b9a632]" started-at="2023-02-27T21:25:46 EET" name="tearDown" finished-at="2023-02-27T21:25:47 EET" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ro.farmec.tests.LogoutTest -->
+    </test> <!-- Logout -->
+    <test started-at="2023-02-27T21:25:47 EET" name="SearchProductTest" finished-at="2023-02-27T21:25:51 EET" duration-ms="4252">
+      <class name="ro.farmec.tests.SearchProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SearchProductTest@54c562f7]" started-at="2023-02-27T21:25:47 EET" name="setUp" finished-at="2023-02-27T21:25:47 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:ro.farmec.tests.SearchProductTest@54c562f7]" started-at="2023-02-27T21:25:47 EET" name="searchProduct" finished-at="2023-02-27T21:25:50 EET" duration-ms="3921" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,55 +78,175 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SearchProductTest@4df50bcc]" started-at="2023-02-27T20:24:16 EET" name="tearDown" finished-at="2023-02-27T20:24:16 EET" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SearchProductTest@54c562f7]" started-at="2023-02-27T21:25:50 EET" name="tearDown" finished-at="2023-02-27T21:25:51 EET" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ro.farmec.tests.SearchProductTest -->
     </test> <!-- SearchProductTest -->
-    <test started-at="2023-02-27T20:24:16 EET" name="FilterTest" finished-at="2023-02-27T20:24:23 EET" duration-ms="7341">
+    <test started-at="2023-02-27T21:25:51 EET" name="FilterTest" finished-at="2023-02-27T21:25:58 EET" duration-ms="7245">
       <class name="ro.farmec.tests.FiltersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:16 EET" name="setUp" finished-at="2023-02-27T20:24:16 EET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.FiltersTest@1a04f701]" started-at="2023-02-27T21:25:51 EET" name="setUp" finished-at="2023-02-27T21:25:51 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkFilters()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:16 EET" name="checkFilters" finished-at="2023-02-27T20:24:23 EET" duration-ms="7001" status="PASS">
+        <test-method signature="checkFilters()[pri:0, instance:ro.farmec.tests.FiltersTest@1a04f701]" started-at="2023-02-27T21:25:51 EET" name="checkFilters" finished-at="2023-02-27T21:25:58 EET" duration-ms="6975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.FiltersTest@6dbb137d]" started-at="2023-02-27T20:24:23 EET" name="tearDown" finished-at="2023-02-27T20:24:23 EET" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.FiltersTest@1a04f701]" started-at="2023-02-27T21:25:58 EET" name="tearDown" finished-at="2023-02-27T21:25:58 EET" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ro.farmec.tests.FiltersTest -->
     </test> <!-- FilterTest -->
-    <test started-at="2023-02-27T20:24:23 EET" name="SeeProductTest" finished-at="2023-02-27T20:24:31 EET" duration-ms="7185">
+    <test started-at="2023-02-27T21:25:58 EET" name="SeeProductTest" finished-at="2023-02-27T21:26:05 EET" duration-ms="7340">
       <class name="ro.farmec.tests.SeeProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:23 EET" name="setUp" finished-at="2023-02-27T20:24:23 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.SeeProductTest@419c5f1a]" started-at="2023-02-27T21:25:58 EET" name="setUp" finished-at="2023-02-27T21:25:58 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkSee()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:23 EET" name="checkSee" finished-at="2023-02-27T20:24:30 EET" duration-ms="6892" status="PASS">
+        <test-method signature="checkSee()[pri:0, instance:ro.farmec.tests.SeeProductTest@419c5f1a]" started-at="2023-02-27T21:25:58 EET" name="checkSee" finished-at="2023-02-27T21:26:05 EET" duration-ms="7085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SeeProductTest@d4342c2]" started-at="2023-02-27T20:24:30 EET" name="tearDown" finished-at="2023-02-27T20:24:31 EET" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.SeeProductTest@419c5f1a]" started-at="2023-02-27T21:26:05 EET" name="tearDown" finished-at="2023-02-27T21:26:05 EET" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ro.farmec.tests.SeeProductTest -->
     </test> <!-- SeeProductTest -->
-    <test started-at="2023-02-27T20:24:31 EET" name="AddToWishTest" finished-at="2023-02-27T20:24:38 EET" duration-ms="7325">
+    <test started-at="2023-02-27T21:26:05 EET" name="AddToWishTest" finished-at="2023-02-27T21:26:08 EET" duration-ms="2932">
       <class name="ro.farmec.tests.AddToWishTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:31 EET" name="setUp" finished-at="2023-02-27T20:24:31 EET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ro.farmec.tests.AddToWishTest@647fd8ce]" started-at="2023-02-27T21:26:05 EET" name="setUp" finished-at="2023-02-27T21:26:05 EET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkProduct()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:31 EET" name="checkProduct" finished-at="2023-02-27T20:24:38 EET" duration-ms="7069" status="PASS">
+        <test-method signature="checkProduct()[pri:0, instance:ro.farmec.tests.AddToWishTest@647fd8ce]" started-at="2023-02-27T21:26:05 EET" name="checkProduct" finished-at="2023-02-27T21:26:08 EET" duration-ms="2860" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //*[@id="root"]/main/section/div/div[2]/div[2]/div/ul/li[1]/div/a/figure/div[3]/button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@id="root"]/main/section/div/div[2]/div[2]/div/ul/li[1]/div/a/figure/div[3]/button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at ro.farmec.pages.AddToWishPage.wishProduct(AddToWishPage.java:29)
+at ro.farmec.tests.AddToWishTest.checkProduct(AddToWishTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.AddToWishTest@769e7ee8]" started-at="2023-02-27T20:24:38 EET" name="tearDown" finished-at="2023-02-27T20:24:38 EET" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ro.farmec.tests.AddToWishTest@647fd8ce]" started-at="2023-02-27T21:26:08 EET" name="tearDown" finished-at="2023-02-27T21:26:08 EET" duration-ms="42" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.177)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bb8d296969507e9f8c8257c8b3415f1, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55358/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bb8d296969507e9f8c8257c8b3415f1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.177)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bb8d296969507e9f8c8257c8b3415f1, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55358/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bb8d296969507e9f8c8257c8b3415f1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:785)
+at ro.farmec.tests.BaseTest.tearDown(BaseTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
