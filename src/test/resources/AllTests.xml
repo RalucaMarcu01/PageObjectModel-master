@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="AllTests" verbose="1">
     <parameter name="user" value="marcuralucadaniela@yahoo.com"/>
-    <parameter name="pass" value="Cacatelul99"/>
+    <parameter name="pass" value="Zxcvbn11"/>
     <parameter name="search" value="acid hialuronic"/>
 
     <test name="Login">
